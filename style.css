@@ -1,8 +1,8 @@
 :root {
     --ink: #1a1a1a;
     --paper: #faf9f7;
-    --accent: #1e3a5f;
-    --accent-light: #2d5a8e;
+    --accent: #1b4332;
+    --accent-light: #2d6a4f;
     --muted: #5c5c5c;
     --border: #e5e3df;
     --surface: #ffffff;
@@ -32,9 +32,9 @@ html {
     transition: all 0.2s ease;
 }
 .filter-btn.active {
-    background: var(--ink);
+    background: var(--accent);
     color: white;
-    border-color: var(--ink);
+    border-color: var(--accent);
 }
 .filter-btn:hover:not(.active) {
     background: var(--highlight);
@@ -51,8 +51,16 @@ html {
 
 /* Category tags */
 .tag-crypto {
-    background: #e8f0fe;
-    color: #1e3a5f;
+    background: #e8f0e9;
+    color: #1b4332;
+}
+.tag-token {
+    background: #ede7f6;
+    color: #4527a0;
+}
+.tag-industry {
+    background: #e3f2fd;
+    color: #1565c0;
 }
 .tag-quant {
     background: #e8f5e9;
@@ -87,10 +95,6 @@ html {
     opacity: 0;
     transform: translateY(20px);
     transition: opacity 0.6s ease, transform 0.6s ease;
-}
-.fade-in.visible {
-    opacity: 1;
-    transform: translateY(0);
 }
 .fade-in.visible {
     opacity: 1;

@@ -1,13 +1,15 @@
 // --- Load data and render ---
 
 const CATEGORY_META = {
-    'crypto':     { label: 'Crypto & Macro', cls: 'tag-crypto' },
-    'quant':      { label: 'Quantitative',   cls: 'tag-quant' },
-    'bilingual':  { label: 'Bilingual',      cls: 'tag-bilingual' },
+    'crypto-macro':   { label: 'Crypto & Macro',   cls: 'tag-crypto' },
+    'token-deep-dive': { label: 'Token Deep Dive',  cls: 'tag-token' },
+    'industry-sector': { label: 'Industry & Sector', cls: 'tag-industry' },
+    'bilingual':      { label: 'Bilingual',         cls: 'tag-bilingual' },
+    'quant':          { label: 'Quantitative',       cls: 'tag-quant' },
 };
 
 function formatDate(iso) {
-    return new Date(iso + 'T00:00:00').toLocaleDateString('en-US', {
+    return new Date(iso).toLocaleDateString('en-US', {
         month: 'short', day: 'numeric', year: 'numeric'
     });
 }
@@ -15,7 +17,7 @@ function formatDate(iso) {
 // --- Articles ---
 
 function buildArticleCard(a) {
-    const meta = CATEGORY_META[a.category] || CATEGORY_META['crypto'];
+    const meta = CATEGORY_META[a.category] || CATEGORY_META['crypto-macro'];
     const url = a.mediumUrl || `articles/${a.slug}.html`;
     const target = a.mediumUrl ? ' target="_blank" rel="noopener"' : '';
     return `
@@ -40,9 +42,8 @@ function renderArticles(articles, filter = 'all') {
     const grid = document.getElementById('article-grid');
     const filtered = filter === 'all'
         ? articles
-        : articles.filter(a => a.category === filter || a.tags?.includes(filter));
+        : articles.filter(a => a.category === filter);
     grid.innerHTML = filtered.map(buildArticleCard).join('');
-    // Trigger fade-in after render
     requestAnimationFrame(() => {
         grid.querySelectorAll('.fade-in').forEach(el => el.classList.add('visible'));
     });
@@ -122,12 +123,10 @@ function setupScrollAnimations() {
         });
     }, { threshold: 0.1 });
 
-    // Observe sections for any dynamic children
     document.querySelectorAll('section').forEach(section => {
         observer.observe(section);
     });
 
-    // Also observe dynamically added cards
     const cardObserver = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
@@ -136,7 +135,6 @@ function setupScrollAnimations() {
         });
     }, { threshold: 0.05, rootMargin: '0px 0px -50px 0px' });
 
-    // Re-observe on DOM changes
     const grid = document.getElementById('article-grid');
     if (grid) {
         new MutationObserver(() => {
