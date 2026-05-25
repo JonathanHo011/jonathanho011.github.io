@@ -16,8 +16,8 @@
                     colors: {
                         ink: '#1a1a1a',
                         paper: '#faf9f7',
-                        accent: '#1e3a5f',
-                        'accent-light': '#2d5a8e',
+                        accent: '#1b4332',
+                        'accent-light': '#2d6a4f',
                         muted: '#5c5c5c',
                         border: '#e5e3df',
                         surface: '#ffffff',
@@ -64,13 +64,13 @@
         <div class="text-center md:text-left">
             <p class="text-[var(--muted)] text-sm font-medium tracking-wide uppercase mb-4">Investment Research & Portfolio</p>
             <h1 class="font-display text-5xl md:text-6xl font-bold tracking-tight mb-6 leading-tight">
-                Hi, I'm<br><span class="text-[var(--accent)]">Jonathan Ho</span>
+                Hi, I'm<br><span style="color: #1b4332;">Jonathan Ho</span>
             </h1>
             <p class="text-lg text-[var(--muted)] max-w-2xl leading-relaxed">
                 Crypto researcher and CAIA charterholder. I use onchain data, quantitative methods, and macro analysis to understand digital asset markets — and publish the findings.
             </p>
             <div class="flex flex-wrap justify-center md:justify-start gap-4 mt-8">
-                <a href="#research" class="inline-flex items-center gap-2 bg-[var(--ink)] text-white px-6 py-3 rounded-full text-sm font-medium hover:bg-[var(--accent)] transition-colors">
+                <a href="#research" class="inline-flex items-center gap-2 bg-[var(--accent)] text-white px-6 py-3 rounded-full text-sm font-medium hover:bg-[var(--accent-light)] transition-colors">
                     Read my research
                     <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M6 4L10 8L6 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
                 </a>
@@ -85,10 +85,10 @@
 <!-- Philosophy -->
 <section id="philosophy" class="py-20 px-6 bg-[var(--surface)] border-y border-[var(--border)]">
     <div class="max-w-4xl mx-auto">
-        <p class="text-xs font-semibold tracking-widest uppercase text-[var(--accent)] mb-3">How I Think</p>
-        <h2 class="font-display text-3xl font-bold mb-8">Investment Philosophy</h2>
+        <p class="text-xs font-semibold tracking-widest uppercase text-[var(--accent)] mb-3">How I Think About Markets</p>
+        <h2 class="font-display text-3xl font-bold mb-8">Research Philosophy</h2>
         <p class="text-[var(--muted)] leading-relaxed max-w-2xl mb-12">
-            My edge comes from bridging macro fundamentals with onchain data. Markets are noisy, but combining top-down rate-cycle analysis with bottom-up blockchain metrics produces signals that pure narrative-trading misses. I'm systematic by instinct — every thesis gets tested against data.
+            I operate at the intersection of macro analysis and onchain data. My process is systematic: begin with daily observation of global macro conditions — central bank policy, geopolitical developments, liquidity dynamics — alongside crypto-native signals like exchange flows, sector rotation, and volatility regimes. From this surface area, I form specific, testable hypotheses: How is this macro regime reshaping BTC's risk profile? Is the BTC-gold relationship breaking structurally, or simply regime-shifting? Each thesis is validated or rejected with data, and the findings are published. I then continue monitoring and backtesting as conditions evolve — refining the framework and compounding insight over time.
         </p>
 
         <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
@@ -96,29 +96,29 @@
                 <div class="w-10 h-10 bg-[var(--accent)]/10 rounded-lg flex items-center justify-center mb-4">
                     <span class="text-[var(--accent)] font-bold text-lg">1</span>
                 </div>
-                <h3 class="font-semibold mb-2">Research</h3>
-                <p class="text-sm text-[var(--muted)] leading-relaxed">Deep-dive analysis — onchain data, macro context, sector mapping</p>
+                <h3 class="font-semibold mb-2">Monitor</h3>
+                <p class="text-sm text-[var(--muted)] leading-relaxed">Track global macro and crypto markets daily — rate cycles, geopolitics, onchain flows</p>
             </div>
             <div class="bg-[var(--paper)] rounded-xl p-6 border border-[var(--border)]">
                 <div class="w-10 h-10 bg-[var(--accent)]/10 rounded-lg flex items-center justify-center mb-4">
                     <span class="text-[var(--accent)] font-bold text-lg">2</span>
                 </div>
-                <h3 class="font-semibold mb-2">Write</h3>
-                <p class="text-sm text-[var(--muted)] leading-relaxed">Document the thesis — clear, data-backed, publication-ready</p>
+                <h3 class="font-semibold mb-2">Hypothesize</h3>
+                <p class="text-sm text-[var(--muted)] leading-relaxed">Form specific, testable theses — e.g. BTC under new macro regimes, BTC-gold dynamics</p>
             </div>
             <div class="bg-[var(--paper)] rounded-xl p-6 border border-[var(--border)]">
                 <div class="w-10 h-10 bg-[var(--accent)]/10 rounded-lg flex items-center justify-center mb-4">
                     <span class="text-[var(--accent)] font-bold text-lg">3</span>
                 </div>
-                <h3 class="font-semibold mb-2">Backtest</h3>
-                <p class="text-sm text-[var(--muted)] leading-relaxed">Systematic validation — Python, Binance data, equity curves</p>
+                <h3 class="font-semibold mb-2">Test</h3>
+                <p class="text-sm text-[var(--muted)] leading-relaxed">Gather data, run backtests, and validate or reject the hypothesis empirically</p>
             </div>
             <div class="bg-[var(--paper)] rounded-xl p-6 border border-[var(--border)]">
                 <div class="w-10 h-10 bg-[var(--accent)]/10 rounded-lg flex items-center justify-center mb-4">
                     <span class="text-[var(--accent)] font-bold text-lg">4</span>
                 </div>
-                <h3 class="font-semibold mb-2">Track</h3>
-                <p class="text-sm text-[var(--muted)] leading-relaxed">Monitor performance, update thesis, refine the model</p>
+                <h3 class="font-semibold mb-2">Write & Track</h3>
+                <p class="text-sm text-[var(--muted)] leading-relaxed">Document findings, publish, and continue monitoring to refine the thesis over time</p>
             </div>
         </div>
     </div>
@@ -166,15 +166,15 @@
         <p class="text-xs font-semibold tracking-widest uppercase text-[var(--accent)] mb-3">Get in Touch</p>
         <h2 class="font-display text-3xl font-bold mb-4">Contact</h2>
         <p class="text-[var(--muted)] mb-10 max-w-md mx-auto">
-            Based in Hong Kong. Open to research and investment roles in HK and Shenzhen.
+            Based in Hong Kong. Open to research and investment roles.
         </p>
 
         <div class="flex flex-wrap justify-center gap-6 text-sm">
-            <a href="mailto:jonathho@outlook.com" class="flex items-center gap-2 text-[var(--muted)] hover:text-[var(--ink)] transition-colors">
+            <a href="mailto:jonathanho290@gmail.com" class="flex items-center gap-2 text-[var(--muted)] hover:text-[var(--ink)] transition-colors">
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 4L12 13L2 4"/></svg>
                 Email
             </a>
-            <a href="https://linkedin.com/in/jonathan-ho-caia" class="flex items-center gap-2 text-[var(--muted)] hover:text-[var(--ink)] transition-colors">
+            <a href="https://linkedin.com/in/jonathanho383" class="flex items-center gap-2 text-[var(--muted)] hover:text-[var(--ink)] transition-colors">
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
                 LinkedIn
             </a>
