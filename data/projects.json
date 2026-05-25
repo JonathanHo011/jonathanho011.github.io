@@ -1,0 +1,44 @@
+[
+    {
+        "slug": "btc-momentum-backtest",
+        "title": "BTC Momentum Strategy Backtest",
+        "description": "MA20/MA200 crossover strategy on BTC/USDT with 10% trailing stop. Produces +58.09% return with Sharpe 1.06 vs buy-and-hold +13.70% over 2+ years of daily data from Binance.",
+        "date": "2026-05-22",
+        "category": "quant",
+        "tags": ["Python", "Binance API", "Backtesting", "BTC"],
+        "githubUrl": "https://github.com/JonathanHo011/btc-momentum-backtest",
+        "metrics": {
+            "return": "+58.09%",
+            "sharpe": "1.06",
+            "maxDrawdown": "-12.73%",
+            "benchmarkReturn": "+13.70%"
+        }
+    },
+    {
+        "slug": "btc-gold-correlation",
+        "title": "BTC-Gold Correlation Across Market Regimes",
+        "description": "Empirical analysis of BTC-PAXG correlation across four distinct market regimes: pre-ATH bull run, post-ATH drawdown, Iran war period, and post-ceasefire. Uses Binance daily data with 20-day rolling correlation.",
+        "date": "2026-05-22",
+        "category": "quant",
+        "tags": ["Python", "Binance API", "Correlation", "BTC", "Gold"],
+        "githubUrl": "https://github.com/JonathanHo011/btc-gold-correlation"
+    },
+    {
+        "slug": "btc-cvd-backtest",
+        "title": "BTC CVD Divergence Filter Backtest",
+        "description": "MA20/MA200 crossover momentum strategy with vs without CVD (Cumulative Volume Delta) divergence filter. Tests whether order-flow data improves signal quality and reduces false entries.",
+        "date": "2026-05-22",
+        "category": "quant",
+        "tags": ["Python", "Binance API", "Order Flow", "CVD", "BTC"],
+        "githubUrl": "https://github.com/JonathanHo011/btc-cvd-backtest"
+    },
+    {
+        "slug": "gold-momentum-backtest",
+        "title": "Gold Momentum Strategy Backtest",
+        "description": "MA20/MA200 momentum backtest on Gold Futures (GC=F). Reveals 0 trades in 2.2 years — a finding that demonstrates why sustained bull trends break momentum signals and reinforces the importance of asset-specific strategy design.",
+        "date": "2026-05-22",
+        "category": "quant",
+        "tags": ["Python", "Gold", "Backtesting", "Futures"],
+        "githubUrl": "https://github.com/JonathanHo011/gold-momentum-backtest"
+    }
+]

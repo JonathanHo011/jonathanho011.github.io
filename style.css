@@ -1,0 +1,98 @@
+:root {
+    --ink: #1a1a1a;
+    --paper: #faf9f7;
+    --accent: #1e3a5f;
+    --accent-light: #2d5a8e;
+    --muted: #5c5c5c;
+    --border: #e5e3df;
+    --surface: #ffffff;
+    --highlight: #f0ede8;
+}
+
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: var(--paper); }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: var(--muted); }
+
+/* Filter buttons */
+.filter-btn {
+    color: var(--muted);
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+.filter-btn.active {
+    background: var(--ink);
+    color: white;
+    border-color: var(--ink);
+}
+.filter-btn:hover:not(.active) {
+    background: var(--highlight);
+}
+
+/* Research cards */
+.research-card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.research-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+}
+
+/* Category tags */
+.tag-crypto {
+    background: #e8f0fe;
+    color: #1e3a5f;
+}
+.tag-quant {
+    background: #e8f5e9;
+    color: #2e5a30;
+}
+.tag-bilingual {
+    background: #fff3e0;
+    color: #8a5a1e;
+}
+
+/* Project metrics */
+.metric-box {
+    background: var(--highlight);
+    border-radius: 0.5rem;
+    padding: 0.75rem 1rem;
+    text-align: center;
+}
+.metric-value {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--accent);
+}
+.metric-label {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--muted);
+}
+
+/* Fade-in on scroll */
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+.fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+.fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
