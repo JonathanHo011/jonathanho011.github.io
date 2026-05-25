@@ -32,9 +32,9 @@ html {
     transition: all 0.2s ease;
 }
 .filter-btn.active {
-    background: var(--ink);
+    background: var(--accent);
     color: white;
-    border-color: var(--ink);
+    border-color: var(--accent);
 }
 .filter-btn:hover:not(.active) {
     background: var(--highlight);
