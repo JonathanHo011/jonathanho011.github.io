@@ -3,7 +3,7 @@
         "slug": "btc-momentum-backtest",
         "title": "BTC Momentum Strategy Backtest",
         "description": "MA20/MA200 crossover strategy on BTC/USDT. After iterating through 7 versions, the best result uses golden cross entry + 10% trailing stop with flat (no shorting) — producing +58.09% return, -12.73% max drawdown, and Sharpe 1.06 vs buy & hold +5.99%. Key finding: forced shorting destroys returns in trending assets.",
-        "date": "2026-05-22",
+        "date": "2026-05-09",
         "category": "quant",
         "tags": ["Python", "Binance API", "Backtesting", "BTC", "Momentum"],
         "githubUrl": "https://github.com/JonathanHo011/btc-momentum-backtest",
@@ -17,8 +17,8 @@
     {
         "slug": "btc-gold-correlation",
         "title": "BTC-Gold Correlation Across Market Regimes",
-        "description": "Empirical test of the 'digital gold' thesis using BTCUSDT and PAXGUSDT daily data across four regimes: pre-ATH bull, post-ATH drawdown (-45.7%), Iran war, and post-ceasefire recovery. 20-day rolling correlation reveals BTC fails as a safe haven — during the post-ATH crash, gold gained +32.2% while BTC dropped -45.7%.",
-        "date": "2026-05-22",
+        "description": "Empirical test of the digital gold thesis using BTCUSDT and PAXGUSDT daily data across four regimes: pre-ATH bull, post-ATH drawdown (-45.7%), Iran war, and post-ceasefire recovery. 20-day rolling correlation reveals BTC fails as a safe haven — during the post-ATH crash, gold gained +32.2% while BTC dropped -45.7%.",
+        "date": "2026-05-14",
         "category": "quant",
         "tags": ["Python", "Binance API", "Correlation", "BTC", "Gold"],
         "githubUrl": "https://github.com/JonathanHo011/btc-gold-correlation"
@@ -27,7 +27,7 @@
         "slug": "btc-cvd-backtest",
         "title": "BTC CVD Divergence Filter (In Progress)",
         "description": "Extending the momentum strategy with cumulative volume delta (CVD) as a divergence filter. Current v6/v7 uses 10% trailing stop — v8 will add perp CVD + funding rates as dual entry filters. Active research project with iterative versioning and documented dead ends.",
-        "date": "2026-05-22",
+        "date": "2026-05-17",
         "category": "quant",
         "tags": ["Python", "Binance API", "Order Flow", "CVD", "BTC"],
         "githubUrl": "https://github.com/JonathanHo011/btc-cvd-backtest"
@@ -36,7 +36,7 @@
         "slug": "gold-momentum-backtest",
         "title": "Gold Momentum Strategy Backtest",
         "description": "The same MA20/MA200 crossover signal applied to Gold Futures (GC=F) — and it produced exactly 0 trades over 2+ years while gold rallied from ~$2,000 to ~$4,700. A case study in why sustained bull trends break momentum signals and why asset-specific strategy design matters.",
-        "date": "2026-05-22",
+        "date": "2026-05-12",
         "category": "quant",
         "tags": ["Python", "Gold", "Backtesting", "Futures"],
         "githubUrl": "https://github.com/JonathanHo011/gold-momentum-backtest",
