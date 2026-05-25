@@ -1,8 +1,8 @@
 :root {
     --ink: #1a1a1a;
     --paper: #faf9f7;
-    --accent: #1b4332;
-    --accent-light: #2d6a4f;
+    --accent: #1e3a5f;
+    --accent-light: #2d5a8e;
     --muted: #5c5c5c;
     --border: #e5e3df;
     --surface: #ffffff;
@@ -32,9 +32,9 @@ html {
     transition: all 0.2s ease;
 }
 .filter-btn.active {
-    background: var(--accent);
+    background: var(--ink);
     color: white;
-    border-color: var(--accent);
+    border-color: var(--ink);
 }
 .filter-btn:hover:not(.active) {
     background: var(--highlight);
