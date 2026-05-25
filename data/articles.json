@@ -6,7 +6,7 @@
         "category": "crypto-macro",
         "readTime": 7,
         "source": "medium",
-        "excerpt": "With the Fed navigating a precarious balance between sticky inflation and slowing growth, rate cuts are back on the table. This piece examines how the evolving macro backdrop reshapes the case for crypto as a portfolio asset.",
+        "excerpt": "Kevin Warsh is floating rate cuts despite inflation above 3%, betting that AI-driven productivity will eventually bring costs down. But with US national debt exceeding $39 trillion, every basis point shaved saves billions in Treasury borrowing costs — and weakens the dollar. The article argues the real calculus is political, not economic, and that a fragile Iran ceasefire leaves energy prices as a wildcard that could derail the AI-deflation narrative.",
         "mediumUrl": "https://medium.com/@Jonathho/rate-cuts-and-their-implication-for-crypto-vol-2-644bf1e486b5"
     },
     {
@@ -16,7 +16,7 @@
         "category": "bilingual",
         "readTime": 6,
         "source": "medium",
-        "excerpt": "中文原创研究：超大模雲服務商或將讓出基礎雲業務給 DePIN。深入分析 AI 時代下超大規模雲廠商戰略轉向，以及去中心化物理基礎設施網絡填補基礎雲計算空白的經濟邏輯。",
+        "excerpt": "中文原创研究：七巨头控制全球约25–30%的数据中心容量，增长压力迫使其将资源转向高利润的AI与GPU业务，基础云计算服务价格竞争力因此下降。在全球企业近50%仅使用基础云服务的背景下，经济放缓可能推动企业转向DePIN等更廉价的替代方案，为去中心化基础设施的广泛采用打开窗口。",
         "mediumUrl": "https://medium.com/@Jonathho/%E8%B6%85%E5%A4%A7%E8%A7%84%E6%A8%A1%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%95%86%E6%88%96%E5%B0%86%E5%9F%BA%E7%A1%80%E4%BA%91%E4%B8%9A%E5%8A%A1%E8%AE%A9%E4%BD%8D%E4%BA%8Edepin-fd8533abab12"
     },
     {
@@ -26,7 +26,7 @@
         "category": "industry-sector",
         "readTime": 6,
         "source": "medium",
-        "excerpt": "As hyperscalers retreat from commodity compute to focus on high-margin AI services, DePIN networks are emerging as the natural backfill for basic cloud infrastructure — and the economic logic is surprisingly compelling.",
+        "excerpt": "AWS, Google Cloud, and Azure control nearly 70% of the public cloud market, but growth pressure is forcing them to shift resources toward high-margin AI services. With ~25–30% of global data center capacity concentrated in just seven firms, basic cloud services face price hikes and degradation — creating an opening for DePIN networks to compete on cost, resilience, and decentralization as nearly half of enterprises use only basic cloud services.",
         "mediumUrl": "https://medium.com/@Jonathho/hyperscalers-may-cede-basic-cloud-business-to-depin-0c849ae054e6"
     },
     {
@@ -36,7 +36,7 @@
         "category": "crypto-macro",
         "readTime": 8,
         "source": "medium",
-        "excerpt": "A historical lens on crypto market cycles — comparing the current drawdown to prior deleveraging events and mapping the path to recovery using onchain and macro indicators.",
+        "excerpt": "Argues that the crypto downturn is not merely a liquidity event but the product of structural inflation drivers: two decades of QE without long-term solutions, bipartisan political dysfunction disrupting productivity, and ballooning national debt compounded by AI's massive capital demands. Until these root causes ease — not just tariff policy — the path to recovery remains uncertain.",
         "mediumUrl": "https://medium.com/@Jonathho/duration-of-this-bubble-burst-and-future-outlook-9f6e46bc82d7"
     },
     {
@@ -46,7 +46,7 @@
         "category": "token-deep-dive",
         "readTime": 7,
         "source": "medium",
-        "excerpt": "A deep dive into the DePIN thesis through the lens of peaq — examining the convergence of robotics, tokenized infrastructure, and the economic incentives that could make machine-to-machine economies viable.",
+        "excerpt": "Projects that by 2030, roughly one billion humanoid robots could exist — and if a fraction transact on-chain via wallets, the machine economy becomes a trillion-dollar opportunity. peaq is building the infrastructure layer for this: machine identity, autonomous payments, and decentralized service marketplaces. The robotics market alone is forecast to grow from $109B to $376B by 2034 at a 15% CAGR.",
         "mediumUrl": "https://medium.com/@Jonathho/the-rise-of-the-machine-economy-peaq-peaq-c2624de256f3"
     },
     {
@@ -56,7 +56,7 @@
         "category": "crypto-macro",
         "readTime": 8,
         "source": "medium",
-        "excerpt": "Bitcoin, gold, and the search for non-sovereign stores of value — analyzing BTC's behavior across rate cycles, geopolitical shocks, and the shifting global monetary order.",
+        "excerpt": "A deliberately cautious take: while media narratives bundle BTC and gold together as 'safety' assets, Bitcoin's store-of-value claim remains aspirational — only a decade of serious adoption versus gold's millennia, with ownership concentrated in large addresses and mining increasingly clustered in the US. CBDCs further threaten to crowd out adoption where states prefer control, and policy exposure means BTC may not behave like gold in the next stress regime.",
         "mediumUrl": "https://medium.com/@Jonathho/bitcoins-role-in-a-fractured-macro-and-its-risks-0c1ee325ba9e"
     },
     {
@@ -66,7 +66,7 @@
         "category": "crypto-macro",
         "readTime": 6,
         "source": "medium",
-        "excerpt": "Analyzing how Federal Reserve rate policy filters through to crypto markets — examining liquidity channels, risk appetite, and historical precedent for digital assets in easing cycles.",
+        "excerpt": "Written ahead of a widely anticipated rate cut, this piece argues the move feels politically influenced — driven more by Trump administration pressure and Treasury funding needs than independent Fed data analysis. Warns that stacked rate cuts could flood stablecoins with liquidity, flow into broader crypto risk, and accelerate a bubble-and-bust dynamic, especially as inflation risk remains underappreciated by markets.",
         "mediumUrl": "https://medium.com/@Jonathho/rate-cuts-and-their-implications-for-crypto-83ee74541b5c"
     },
     {
@@ -76,7 +76,7 @@
         "category": "crypto-macro",
         "readTime": 6,
         "source": "medium",
-        "excerpt": "Breaking down the macro implications of the US-China tariff agreement — treasury yields, risk assets, and what it means for crypto markets navigating a shifting trade regime.",
+        "excerpt": "The US-China tariff deal offers short-term stability but masks long-term challenges: sticky inflation, rising Treasury yields, and tiered trade realignments. The US's urgency was driven by the looming X-date (debt ceiling default risk projected between August and October), with a key motivation being to stabilize Treasury yields. Crypto and gold emerge as potential hedges against continued dollar weakness and policy uncertainty.",
         "mediumUrl": "https://medium.com/@Jonathho/market-outlook-under-the-new-us-cn-tariff-deal-628a46d5e76e"
     },
     {
@@ -86,7 +86,7 @@
         "category": "token-deep-dive",
         "readTime": 7,
         "source": "medium",
-        "excerpt": "Countering the narrative that Ethereum's bounce is purely speculative — examining L2 growth, staking metrics, and protocol revenue data that suggest structural demand underpinning the recovery.",
+        "excerpt": "Counters the narrative that ETH's price resurgence is purely speculative by examining three dimensions: macro (tariff policies and dollar pressure driving demand for store-of-value digital assets), sector (ETH's tightening correlation with large-cap cryptocurrencies), and protocol (ongoing Ethereum network upgrades creating genuine structural demand). As Bitcoin rises, it historically lifts ETH — but this time the foundation beneath it is stronger.",
         "mediumUrl": "https://medium.com/@Jonathho/eths-recent-recovery-is-backed-by-solid-foundation-not-speculation-151b29d10521"
     },
     {
@@ -96,7 +96,7 @@
         "category": "token-deep-dive",
         "readTime": 6,
         "source": "medium",
-        "excerpt": "Analyzing the macro and onchain signals suggesting Bitcoin was approaching an inflection point — ETF flows, hash rate dynamics, and the case for structurally higher demand.",
+        "excerpt": "Presents the bull case for Bitcoin entering an accelerated growth phase in 2025. Macro tailwinds — declining global trade, a looming US recession, and eroding dollar confidence — remain intact despite calming rhetoric from US officials. The piece also flags risks: a tiered trade negotiation strategy creating geopolitical friction, and the possibility that nations relegated to later rounds may reject less favorable terms.",
         "mediumUrl": "https://medium.com/@Jonathho/bitcoin-nears-the-brink-of-rapid-growth-1396891d3ada"
     }
 ]
