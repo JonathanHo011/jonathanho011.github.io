@@ -14,10 +14,16 @@
     ],
     "githubUrl": "https://github.com/JonathanHo011/gold-regime-project",
     "metrics": {
-      "return": "+39.3%/yr",
-      "sharpe": "1.55",
-      "maxDrawdown": "N/A",
-      "benchmarkReturn": "+10.7%/yr (normal)"
+      "return": "37%",
+      "sharpe": "p < 0.0001",
+      "maxDrawdown": "95%",
+      "benchmarkReturn": "21.3%/yr"
+    },
+    "metricLabels": {
+      "return": "DXY Amplification",
+      "sharpe": "Interaction p-value",
+      "maxDrawdown": "Model Explained",
+      "benchmarkReturn": "Pressure Gold Return"
     }
   },
   {

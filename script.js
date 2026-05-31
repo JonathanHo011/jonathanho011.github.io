@@ -63,25 +63,19 @@ function buildProjectCard(p) {
                 <a href="${p.githubUrl}" target="_blank" rel="noopener" class="hover:text-[var(--accent)] transition-colors">${p.title}</a>
             </h3>
             <p class="text-[var(--muted)] text-sm mb-4 leading-relaxed">${p.description}</p>
-            ${p.metrics ? `
-            <div class="grid grid-cols-4 gap-2 mb-4">
+            ${p.metrics ? (() => {
+                const labels = p.metricLabels || { return: 'Return', sharpe: 'Sharpe', maxDrawdown: 'Max DD', benchmarkReturn: 'B&H' };
+                const keys = ['return', 'sharpe', 'maxDrawdown', 'benchmarkReturn'];
+                const values = keys.filter(k => p.metrics[k] !== undefined && p.metrics[k] !== 'N/A');
+                return `
+            <div class="grid grid-cols-${Math.min(values.length, 4)} gap-2 mb-4">
+                ${values.map(k => `
                 <div class="metric-box">
-                    <div class="metric-value">${p.metrics.return}</div>
-                    <div class="metric-label">Return</div>
-                </div>
-                <div class="metric-box">
-                    <div class="metric-value">${p.metrics.sharpe}</div>
-                    <div class="metric-label">Sharpe</div>
-                </div>
-                <div class="metric-box">
-                    <div class="metric-value">${p.metrics.maxDrawdown}</div>
-                    <div class="metric-label">Max DD</div>
-                </div>
-                <div class="metric-box">
-                    <div class="metric-value">${p.metrics.benchmarkReturn}</div>
-                    <div class="metric-label">B&H</div>
-                </div>
-            </div>` : ''}
+                    <div class="metric-value">${p.metrics[k]}</div>
+                    <div class="metric-label">${labels[k]}</div>
+                </div>`).join('')}
+            </div>`;
+            })() : ''}
             <div class="flex flex-wrap gap-2 mb-4">
                 ${(p.tags || []).map(t => `<span class="text-xs text-[var(--muted)] bg-[var(--highlight)] px-2 py-1 rounded">${t}</span>`).join('')}
             </div>
