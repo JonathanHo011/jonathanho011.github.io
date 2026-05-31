@@ -1,102 +1,112 @@
 [
-    {
-        "slug": "rate-cuts-crypto-vol2",
-        "title": "Rate Cuts and Their Implications for Crypto, Vol. 2",
-        "date": "2026-04-28",
-        "category": "crypto-macro",
-        "readTime": 7,
-        "source": "medium",
-        "excerpt": "Rate cuts with inflation above 3% — is the Fed pivoting on economics, or on $39 trillion of national debt pressure? Argues the real calculus is political, and that a fragile Iran ceasefire leaves energy prices as a wildcard that could derail the AI-deflation narrative underpinning the dovish case.",
-        "mediumUrl": "https://medium.com/@Jonathho/rate-cuts-and-their-implication-for-crypto-vol-2-644bf1e486b5"
-    },
-    {
-        "slug": "hyperscalers-depin-cn",
-        "title": "Hyperscalers或将让出基础云业务给 DePIN",
-        "date": "2025-11-28",
-        "category": "bilingual",
-        "readTime": 6,
-        "source": "medium",
-        "excerpt": "七巨头控制全球~25–30%的数据中心容量，增长压力正迫使其将资源转向高利润的AI业务，基础云计算反而成为包袱。在经济放缓背景下，近50%企业仅使用基础云服务，价格与可靠性优势可能为DePIN的广泛采用打开结构性窗口。",
-        "mediumUrl": "https://medium.com/@Jonathho/%E8%B6%85%E5%A4%A7%E8%A7%84%E6%A8%A1%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%95%86%E6%88%96%E5%B0%86%E5%9F%BA%E7%A1%80%E4%BA%91%E4%B8%9A%E5%8A%A1%E8%AE%A9%E4%BD%8D%E4%BA%8Edepin-fd8533abab12"
-    },
-    {
-        "slug": "hyperscalers-depin",
-        "title": "Hyperscalers May Cede Basic Cloud Business to DePIN",
-        "date": "2025-11-25",
-        "category": "industry-sector",
-        "readTime": 6,
-        "source": "medium",
-        "excerpt": "AWS, Google Cloud, and Azure control 70% of the public cloud market — but growth pressure is forcing them upmarket into AI, leaving basic cloud services vulnerable to price hikes and degradation. Argues this creates a structural opening for DePIN networks to compete on cost and resilience, right as nearly half of enterprises use only basic cloud.",
-        "mediumUrl": "https://medium.com/@Jonathho/hyperscalers-may-cede-basic-cloud-business-to-depin-0c849ae054e6"
-    },
-    {
-        "slug": "bubble-burst-outlook",
-        "title": "Duration of This Bubble Burst and Future Outlook",
-        "date": "2025-11-18",
-        "category": "crypto-macro",
-        "readTime": 8,
-        "source": "medium",
-        "excerpt": "Pushes past the liquidity narrative to identify deeper structural drivers of the crypto downturn: two decades of QE without long-term solutions, bipartisan dysfunction dampening US productivity, and AI's capital demands compounding the debt problem. Until these root causes ease — not just tariffs — the recovery thesis remains fragile.",
-        "mediumUrl": "https://medium.com/@Jonathho/duration-of-this-bubble-burst-and-future-outlook-9f6e46bc82d7"
-    },
-    {
-        "slug": "peaq-machine-economy",
-        "title": "The Rise of the Machine Economy: peaq ($PEAQ) in 2026",
-        "date": "2025-10-30",
-        "category": "token-deep-dive",
-        "readTime": 7,
-        "source": "medium",
-        "excerpt": "By 2030, ~1 billion humanoid robots could exist — and peaq is building the infrastructure for machines to hold wallets, price services, and settle transactions on-chain. Maps the thesis to a robotics market projected to grow from $109B to $376B by 2034 at 15% CAGR.",
-        "mediumUrl": "https://medium.com/@Jonathho/the-rise-of-the-machine-economy-peaq-peaq-c2624de256f3"
-    },
-    {
-        "slug": "bitcoin-fractured-macro",
-        "title": "Bitcoin's Role in a Fractured Macro and Its Risks",
-        "date": "2025-10-14",
-        "category": "crypto-macro",
-        "readTime": 8,
-        "source": "medium",
-        "excerpt": "A deliberately cautious counterpoint: while markets are bundling BTC with gold as 'safety,' Bitcoin's store-of-value claim is still aspirational — a decade of adoption vs. millennia, concentrated ownership, US-centric mining, and CBDC competition. In the next stress regime, BTC may not behave the way the narrative promises.",
-        "mediumUrl": "https://medium.com/@Jonathho/bitcoins-role-in-a-fractured-macro-and-its-risks-0c1ee325ba9e"
-    },
-    {
-        "slug": "rate-cuts-crypto",
-        "title": "Rate Cuts and Their Implications for Crypto",
-        "date": "2025-09-15",
-        "category": "crypto-macro",
-        "readTime": 6,
-        "source": "medium",
-        "excerpt": "Ahead of a widely anticipated rate cut, argues the move is politically influenced — driven more by Treasury funding pressure and Trump administration demands than independent Fed analysis. Warns that stacked cuts could flood stablecoins with liquidity, accelerating a bubble-and-bust dynamic while inflation risk goes underpriced.",
-        "mediumUrl": "https://medium.com/@Jonathho/rate-cuts-and-their-implications-for-crypto-83ee74541b5c"
-    },
-    {
-        "slug": "us-cn-tariff-deal",
-        "title": "Market Outlook Under the New US-CN Tariff Deal",
-        "date": "2025-05-14",
-        "category": "crypto-macro",
-        "readTime": 6,
-        "source": "medium",
-        "excerpt": "The US-China tariff deal offers short-term relief but masks the real story: US urgency was driven by the looming X-date debt ceiling risk and the need to stabilize Treasury yields. With sticky inflation and tiered trade realignments ahead, crypto and gold gain as hedges against continued dollar weakness.",
-        "mediumUrl": "https://medium.com/@Jonathho/market-outlook-under-the-new-us-cn-tariff-deal-628a46d5e76e"
-    },
-    {
-        "slug": "eth-solid-foundation",
-        "title": "ETH's Recent Recovery Is Backed by Solid Foundation, Not Speculation",
-        "date": "2025-05-12",
-        "category": "token-deep-dive",
-        "readTime": 7,
-        "source": "medium",
-        "excerpt": "Pushes back on the narrative that ETH's price surge is purely speculative — triangulates across macro (dollar pressure driving demand for digital store-of-value), sector (tightening correlation with large caps), and protocol (ongoing network upgrades creating structural demand) to argue the foundation beneath this rally is genuine.",
-        "mediumUrl": "https://medium.com/@Jonathho/eths-recent-recovery-is-backed-by-solid-foundation-not-speculation-151b29d10521"
-    },
-    {
-        "slug": "bitcoin-brink-growth",
-        "title": "Bitcoin Nears the Brink of Rapid Growth",
-        "date": "2025-04-27",
-        "category": "token-deep-dive",
-        "readTime": 6,
-        "source": "medium",
-        "excerpt": "Makes the bull case for Bitcoin entering an accelerated growth phase in 2025: declining global trade, a looming US recession, and eroding dollar confidence remain intact despite calming official rhetoric. Flags the risk that a tiered trade negotiation strategy could create geopolitical friction if nations in later rounds reject less favorable terms.",
-        "mediumUrl": "https://medium.com/@Jonathho/bitcoin-nears-the-brink-of-rapid-growth-1396891d3ada"
-    }
+  {
+    "slug": "gold-dollar-oval-office",
+    "title": "Gold, the Dollar, and the Oval Office",
+    "date": "2026-05-30",
+    "category": "crypto-macro",
+    "readTime": 8,
+    "source": "medium",
+    "excerpt": "A quantitative test of whether presidential pressure on the Fed amplifies gold's sensitivity to a weakening dollar. Combines historical review of Nixon, Greenspan, and Trump with a regression model showing DXY beta jumps 37% during political pressure regimes (p < 0.0001). Key finding: gold returns roughly double to 21%/yr during pressure periods, and 95% of the excess is captured by standard macro drivers.",
+    "mediumUrl": "https://medium.com/@Jonathho/gold-the-dollar-and-the-oval-office-d37c2ddc56ab"
+  },
+  {
+    "slug": "rate-cuts-crypto-vol2",
+    "title": "Rate Cuts and Their Implications for Crypto, Vol. 2",
+    "date": "2026-04-28",
+    "category": "crypto-macro",
+    "readTime": 7,
+    "source": "medium",
+    "excerpt": "Rate cuts with inflation above 3% — is the Fed pivoting on economics, or on $39 trillion of national debt pressure? Argues the real calculus is political, and that a fragile Iran ceasefire leaves energy prices as a wildcard that could derail the AI-deflation narrative underpinning the dovish case.",
+    "mediumUrl": "https://medium.com/@Jonathho/rate-cuts-and-their-implication-for-crypto-vol-2-644bf1e486b5"
+  },
+  {
+    "slug": "hyperscalers-depin-cn",
+    "title": "Hyperscalers或将让出基础云业务给 DePIN",
+    "date": "2025-11-28",
+    "category": "bilingual",
+    "readTime": 6,
+    "source": "medium",
+    "excerpt": "七巨头控制全球~25–30%的数据中心容量，增长压力正迫使其将资源转向高利润的AI业务，基础云计算反而成为包袱。在经济放缓背景下，近50%企业仅使用基础云服务，价格与可靠性优势可能为DePIN的广泛采用打开结构性窗口。",
+    "mediumUrl": "https://medium.com/@Jonathho/%E8%B6%85%E5%A4%A7%E8%A7%84%E6%A8%A1%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%95%86%E6%88%96%E5%B0%86%E5%9F%BA%E7%A1%80%E4%BA%91%E4%B8%9A%E5%8A%A1%E8%AE%A9%E4%BD%8D%E4%BA%8Edepin-fd8533abab12"
+  },
+  {
+    "slug": "hyperscalers-depin",
+    "title": "Hyperscalers May Cede Basic Cloud Business to DePIN",
+    "date": "2025-11-25",
+    "category": "industry-sector",
+    "readTime": 6,
+    "source": "medium",
+    "excerpt": "AWS, Google Cloud, and Azure control 70% of the public cloud market — but growth pressure is forcing them upmarket into AI, leaving basic cloud services vulnerable to price hikes and degradation. Argues this creates a structural opening for DePIN networks to compete on cost and resilience, right as nearly half of enterprises use only basic cloud.",
+    "mediumUrl": "https://medium.com/@Jonathho/hyperscalers-may-cede-basic-cloud-business-to-depin-0c849ae054e6"
+  },
+  {
+    "slug": "bubble-burst-outlook",
+    "title": "Duration of This Bubble Burst and Future Outlook",
+    "date": "2025-11-18",
+    "category": "crypto-macro",
+    "readTime": 8,
+    "source": "medium",
+    "excerpt": "Pushes past the liquidity narrative to identify deeper structural drivers of the crypto downturn: two decades of QE without long-term solutions, bipartisan dysfunction dampening US productivity, and AI's capital demands compounding the debt problem. Until these root causes ease — not just tariffs — the recovery thesis remains fragile.",
+    "mediumUrl": "https://medium.com/@Jonathho/duration-of-this-bubble-burst-and-future-outlook-9f6e46bc82d7"
+  },
+  {
+    "slug": "peaq-machine-economy",
+    "title": "The Rise of the Machine Economy: peaq ($PEAQ) in 2026",
+    "date": "2025-10-30",
+    "category": "token-deep-dive",
+    "readTime": 7,
+    "source": "medium",
+    "excerpt": "By 2030, ~1 billion humanoid robots could exist — and peaq is building the infrastructure for machines to hold wallets, price services, and settle transactions on-chain. Maps the thesis to a robotics market projected to grow from $109B to $376B by 2034 at 15% CAGR.",
+    "mediumUrl": "https://medium.com/@Jonathho/the-rise-of-the-machine-economy-peaq-peaq-c2624de256f3"
+  },
+  {
+    "slug": "bitcoin-fractured-macro",
+    "title": "Bitcoin's Role in a Fractured Macro and Its Risks",
+    "date": "2025-10-14",
+    "category": "crypto-macro",
+    "readTime": 8,
+    "source": "medium",
+    "excerpt": "A deliberately cautious counterpoint: while markets are bundling BTC with gold as 'safety,' Bitcoin's store-of-value claim is still aspirational — a decade of adoption vs. millennia, concentrated ownership, US-centric mining, and CBDC competition. In the next stress regime, BTC may not behave the way the narrative promises.",
+    "mediumUrl": "https://medium.com/@Jonathho/bitcoins-role-in-a-fractured-macro-and-its-risks-0c1ee325ba9e"
+  },
+  {
+    "slug": "rate-cuts-crypto",
+    "title": "Rate Cuts and Their Implications for Crypto",
+    "date": "2025-09-15",
+    "category": "crypto-macro",
+    "readTime": 6,
+    "source": "medium",
+    "excerpt": "Ahead of a widely anticipated rate cut, argues the move is politically influenced — driven more by Treasury funding pressure and Trump administration demands than independent Fed analysis. Warns that stacked cuts could flood stablecoins with liquidity, accelerating a bubble-and-bust dynamic while inflation risk goes underpriced.",
+    "mediumUrl": "https://medium.com/@Jonathho/rate-cuts-and-their-implications-for-crypto-83ee74541b5c"
+  },
+  {
+    "slug": "us-cn-tariff-deal",
+    "title": "Market Outlook Under the New US-CN Tariff Deal",
+    "date": "2025-05-14",
+    "category": "crypto-macro",
+    "readTime": 6,
+    "source": "medium",
+    "excerpt": "The US-China tariff deal offers short-term relief but masks the real story: US urgency was driven by the looming X-date debt ceiling risk and the need to stabilize Treasury yields. With sticky inflation and tiered trade realignments ahead, crypto and gold gain as hedges against continued dollar weakness.",
+    "mediumUrl": "https://medium.com/@Jonathho/market-outlook-under-the-new-us-cn-tariff-deal-628a46d5e76e"
+  },
+  {
+    "slug": "eth-solid-foundation",
+    "title": "ETH's Recent Recovery Is Backed by Solid Foundation, Not Speculation",
+    "date": "2025-05-12",
+    "category": "token-deep-dive",
+    "readTime": 7,
+    "source": "medium",
+    "excerpt": "Pushes back on the narrative that ETH's price surge is purely speculative — triangulates across macro (dollar pressure driving demand for digital store-of-value), sector (tightening correlation with large caps), and protocol (ongoing network upgrades creating structural demand) to argue the foundation beneath this rally is genuine.",
+    "mediumUrl": "https://medium.com/@Jonathho/eths-recent-recovery-is-backed-by-solid-foundation-not-speculation-151b29d10521"
+  },
+  {
+    "slug": "bitcoin-brink-growth",
+    "title": "Bitcoin Nears the Brink of Rapid Growth",
+    "date": "2025-04-27",
+    "category": "token-deep-dive",
+    "readTime": 6,
+    "source": "medium",
+    "excerpt": "Makes the bull case for Bitcoin entering an accelerated growth phase in 2025: declining global trade, a looming US recession, and eroding dollar confidence remain intact despite calming official rhetoric. Flags the risk that a tiered trade negotiation strategy could create geopolitical friction if nations in later rounds reject less favorable terms.",
+    "mediumUrl": "https://medium.com/@Jonathho/bitcoin-nears-the-brink-of-rapid-growth-1396891d3ada"
+  }
 ]
