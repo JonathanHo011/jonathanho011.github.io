@@ -1,5 +1,32 @@
 [
   {
+    "slug": "tokenized-treasuries-project",
+    "title": "Tokenized Treasuries: Yield Shock Strategy Test",
+    "description": "Quantitative stress-test comparing tokenized vs traditional Treasury deployment during a crisis. Sep 2022 scenario: tokenized investor gets 70% LTV via Aave + T+0 settlement vs 50% broker margin + T+3. Result: +5.2 ppt edge on SPY (pure capital efficiency), +9.6 ppt on QQQ (timing + structure). Full methodology, edge decomposition, and mechanical signal robustness tests included.",
+    "date": "2026-06-10",
+    "category": "quant",
+    "tags": [
+      "Python",
+      "DeFi",
+      "Tokenized Assets",
+      "Yield",
+      "Macro"
+    ],
+    "githubUrl": "https://github.com/JonathanHo011/tokenized-treasuries",
+    "metrics": {
+      "return": "+5.2 ppt",
+      "sharpe": "+9.6 ppt",
+      "maxDrawdown": "70% LTV",
+      "benchmarkReturn": "T+0"
+    },
+    "metricLabels": {
+      "return": "SPY Edge",
+      "sharpe": "QQQ Edge",
+      "maxDrawdown": "Max LTV vs 50%",
+      "benchmarkReturn": "Settlement"
+    }
+  },
+  {
     "slug": "gold-regime-project",
     "title": "Gold Political Pressure Regime Project",
     "description": "Historical analog analysis + quantitative macro-driver model testing whether presidents move gold by pressuring the Fed. Regression across 5,833 trading days (2000-2026) finds DXY sensitivity amplifies 37% during political pressure windows. Model explains 95% of excess returns with DXY, real rates, and VIX alone. Includes three detailed case files (Nixon-Burns, Greenspan-Bush, Trump-Powell) and publication-ready research article.",
