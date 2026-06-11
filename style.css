@@ -70,6 +70,10 @@ html {
     background: #fff3e0;
     color: #8a5a1e;
 }
+.tag-rwa {
+    background: #fef3e4;
+    color: #a0522d;
+}
 
 /* Project metrics */
 .metric-box {

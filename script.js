@@ -4,6 +4,7 @@ const CATEGORY_META = {
     'crypto-macro':   { label: 'Crypto & Macro',   cls: 'tag-crypto' },
     'token-deep-dive': { label: 'Token Deep Dive',  cls: 'tag-token' },
     'industry-sector': { label: 'Industry & Sector', cls: 'tag-industry' },
+    'rwa':            { label: 'RWA',                cls: 'tag-rwa' },
     'bilingual':      { label: 'Bilingual',         cls: 'tag-bilingual' },
     'quant':          { label: 'Quantitative',       cls: 'tag-quant' },
 };
