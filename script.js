@@ -1,8 +1,8 @@
 // --- Load data and render ---
 
 const CATEGORY_META = {
-    'crypto-macro':   { label: 'Crypto & Macro',   cls: 'tag-crypto' },
-    'token-deep-dive': { label: 'Token Deep Dive',  cls: 'tag-token' },
+    'macro':          { label: 'Macro',              cls: 'tag-macro' },
+    'crypto':         { label: 'Crypto',             cls: 'tag-crypto' },
     'industry-sector': { label: 'Industry & Sector', cls: 'tag-industry' },
     'rwa':            { label: 'RWA',                cls: 'tag-rwa' },
     'bilingual':      { label: 'Bilingual',         cls: 'tag-bilingual' },
@@ -18,7 +18,7 @@ function formatDate(iso) {
 // --- Articles ---
 
 function buildArticleCard(a) {
-    const meta = CATEGORY_META[a.category] || CATEGORY_META['crypto-macro'];
+    const meta = CATEGORY_META[a.category] || CATEGORY_META['macro'];
     const url = a.mediumUrl || `articles/${a.slug}.html`;
     const target = a.mediumUrl ? ' target="_blank" rel="noopener"' : '';
     return `

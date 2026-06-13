@@ -50,6 +50,10 @@ html {
 }
 
 /* Category tags */
+.tag-macro {
+    background: #e8f0e9;
+    color: #1b4332;
+}
 .tag-crypto {
     background: #e8f0e9;
     color: #1b4332;
