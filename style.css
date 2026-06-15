@@ -50,29 +50,29 @@ html {
 }
 
 /* Category tags */
-.tag-crypto {
-    background: #e8f0e9;
-    color: #1b4332;
-}
 .tag-macro {
     background: #e8eaf6;
     color: #283593;
+}
+.tag-crypto {
+    background: #ede7f6;
+    color: #4527a0;
 }
 .tag-industry {
     background: #e3f2fd;
     color: #1565c0;
 }
-.tag-quant {
-    background: #e8f5e9;
-    color: #2e5a30;
+.tag-rwa {
+    background: #e0f2f1;
+    color: #00695c;
 }
 .tag-bilingual {
     background: #fff3e0;
     color: #8a5a1e;
 }
-.tag-rwa {
-    background: #fef3e4;
-    color: #a0522d;
+.tag-quant {
+    background: #e8f5e9;
+    color: #2e5a30;
 }
 
 /* Project metrics */
