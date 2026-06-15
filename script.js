@@ -18,7 +18,7 @@ function formatDate(iso) {
 // --- Articles ---
 
 function buildArticleCard(a) {
-    const meta = CATEGORY_META[a.category] || CATEGORY_META['macro'];
+    const meta = CATEGORY_META[a.category] || CATEGORY_META['crypto'];
     const url = a.mediumUrl || `articles/${a.slug}.html`;
     const target = a.mediumUrl ? ' target="_blank" rel="noopener"' : '';
     return `
