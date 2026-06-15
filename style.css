@@ -51,16 +51,16 @@ html {
 
 /* Category tags */
 .tag-macro {
-    background: #e8eaf6;
-    color: #283593;
+    background: #e3f2fd;
+    color: #0d47a1;
 }
 .tag-crypto {
     background: #ede7f6;
     color: #4527a0;
 }
 .tag-industry {
-    background: #e3f2fd;
-    color: #1565c0;
+    background: #e8f5e9;
+    color: #1b5e20;
 }
 .tag-rwa {
     background: #e0f2f1;
@@ -71,8 +71,8 @@ html {
     color: #8a5a1e;
 }
 .tag-quant {
-    background: #e8f5e9;
-    color: #2e5a30;
+    background: #fce4ec;
+    color: #880e4f;
 }
 
 /* Project metrics */
